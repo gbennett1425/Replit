@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<style>
+      .box{
+      position: relative;
+      border: 1px solid;
+      margin: 5px;
+      padding: 5px;
+      text-align: center
+      }
+  .column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+  
+  <title>About Me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>About Me</h2>
+  <fieldset><legend>Description</legend>
+  <p>I am a student from Seneca Ks studying Computer Engineering. I have also obtained a class A CDL to drive a truck for our family business over the summer.</p>
+  </fieldset><fieldset><legend>How To Contact Me</legend>
+<div class="row">
+  <div class="column">
+    <div class="box" onclick="">Garrett Bennett</div>
+    <div class="box" onclick=""><a href="mailto: gbennett1425@ksu.edu" target="_blank">gbennett1425@ksu.edu</div>
+    <div class="box" onclick=""> <a href="https://www.linkedin.com/in/garrett-bennett-8340371b8/" target="_blank">LinkedIn</a></div>
+  </div>
+  <div class="column">
+    <div class="box" onclick=""><a href="https://www.youtube.com/channel/UCGc-eCZVQILyVbHZX4-ftTQ" target="_blank">Youtube</div>
+        <div class="box" onclick=""><a href="https://gbennettblogs.wordpress.com/home/" target="_blank">Project Blog</div>
+  </div>
+</div>   
+  <br>
+  <button onclick="window.print()">Print Page</button>
+  </fieldset>
+  <script src="script.js"></script>
+</body>
+
+</html>

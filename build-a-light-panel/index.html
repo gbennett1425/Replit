@@ -1,0 +1,57 @@
+= <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<h2>Build a Light Panel</h2>
+    <label>Panel Type:</label>
+     <select id="PanelInput1">
+<option value=Cab>Cab</option>
+<option value=Sleeper>Sleeper</option>
+</select>
+    <br></br>
+    <label>Sleeper Size:</label>
+    <select id="PanelInput2">
+<option value=(NaN)>(NaN)</option>
+<option value=40">40"</option>
+<option value=44">44"</option>
+<option value=58">58"</option>
+<option value=63">63"</option>
+<option value=72">72"</option>
+<option value=80">80"</option>
+<option value=84">84"</option>
+<option value=custom,>custom</option>
+</select>
+    <br></br>
+    <label>Light Spacing:</label>
+      <select id="PanelInput3">
+<option value=4">4"</option>
+<option value=6">6"</option>
+</select>
+    <br></br>
+   <label>Light Direction:</label>
+     <select id="PanelInput4">
+<option value=Out>Out</option>
+<option value=Down>Down</option>
+
+</select>
+<br></br>
+<label>Light Color:</label>
+<select id="PanelInput5">
+<option value=Amber>Amber</option>
+<option value=Clear>Clear</option>
+</select>
+<br></br>
+    <button onClick="checkOut()">Checkout</button>
+<br><br>
+  <p id="panel1out">Copy and Paste everything in brackets into the form below to submit a request<br> [ ]</p>
+
+    <button onClick="alert1()"><br></button>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
